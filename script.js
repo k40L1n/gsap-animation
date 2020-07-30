@@ -35,6 +35,8 @@ timeline
     })
     .fromTo('.button', {opacity:0, scale:0, rotation: 720}, {opacity: 1, scale: 1, rotation:0 })
 
+    // button event listener
+    
     const btn = document.querySelector('.button');
     btn.addEventListener('click', ()=> {
         timeline.timeScale(3);
